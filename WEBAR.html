@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://picsum.photos/50">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins'],
+                    },
+                    container: {
+                        padding: {
+                            DEFAULT: '2rem',
+                            sm: '2rem',
+                            lg: '4rem',
+                            xl: '6rem',
+                            '2xl': '8rem',
+                            center: true
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        #mode:checked ~ label div.toggle {
+            @apply translate-x-7 transition
+        }
+    </style>
+    <title>AR Senjata</title>
+</head>
+<body class="font-poppins dark:bg-gray-900 cursor-default">
+    <header>
+        <div class="p-5 container m-auto flex flex-col sm:flex-row items-center justify-between gap-5">
+            
+            <!-- DRAWER -->
+            <div class="w-full flex items-center sm:justify-start justify-between sm:gap-10">
+                
+                <!-- TITLE -->
+                <div class="text-3xl font-semibold text-sky-500">
+                    MARKER
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container mx-auto mt-10 mb-20">
+            <!-- LIST -->
+            <article class="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
+                <div class="h-96 bg-white dark:bg-gray-800 rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+                    <div class="h-2/3 group hover:translate-y-2 hover:shadow-xl transition-all">
+                        <div class=" h-full m-6 rounded-2xl relative overflow-hidden">
+                            <img src="https://isaway40.github.io/arsenjata.github.io/marker1.jpg" alt="major" class="h-full w-full object-cover group-hover:scale-110 transition-all">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-end m-6 mt-12">
+                        <div class="flex justify-between items-end text-black dark:text-white">
+                            <div class="flex flex-col text-left justify-end font-medium">
+                                <div class="flex gap-2 items-center">
+                                    <div class="h-3 w-3 bg-red-500 rounded-full shadow-xl dark:bg-red-400"></div>
+                                    <span class="font-medium">
+                                        <em>Jawa Barat</em>
+                                    </span>
+                                </div>
+                                <span class="text-2xl font-semibold">KUJANG</span>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1IrWhpaFIUgHFB8SaFbYyFtX8kOcDeKLF/view?usp=drivesdk">
+                        <button class="flex flex-col items-center gap-2 group" type="button">
+                            <i class="bi bi-download fa-xl text-gray-500 block group-hover:hidden transition-all"></i>
+                            <i class="bi bi-download fa-xl text-gray-500 hidden group-hover:block transition-all"></i>
+                        </button>
+                        </a>    
+                    </div>
+                </div>
+                <div class="h-96 bg-white dark:bg-gray-800 rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+                    <div class="h-2/3 group hover:translate-y-2 hover:shadow-xl transition-all">
+                        <div class=" h-full m-6 rounded-2xl relative overflow-hidden">
+                            <img src="https://isaway40.github.io/arsenjata.github.io/marker1.jpg" alt="major" class="h-full w-full object-cover group-hover:scale-110 transition-all">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-end m-6 mt-12">
+                        <div class="flex justify-between items-end text-black dark:text-white">
+                            <div class="flex flex-col text-left justify-end font-medium">
+                                <div class="flex gap-2 items-center">
+                                    <div class="h-3 w-3 bg-red-500 rounded-full shadow-xl dark:bg-red-400"></div>
+                                    <span class="font-medium">
+                                        <em>Jawa Tengah</em>
+                                    </span>
+                                </div>
+                                <span class="text-2xl font-semibold">KERIS</span>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1IrWhpaFIUgHFB8SaFbYyFtX8kOcDeKLF/view?usp=drivesdk">
+                        <button class="flex flex-col items-center gap-2 group" type="button">
+                            <i class="bi bi-download fa-xl text-gray-500 block group-hover:hidden transition-all"></i>
+                            <i class="bi bi-download fa-xl text-gray-500 hidden group-hover:block transition-all"></i>
+                        </button>
+                        </a>    
+                    </div>
+                </div>
+                
+            </article>
+
+        </div>
+    </main>
+
+    <script>
+
+        // DARK MODE
+        const checkbox = document.querySelector('#mode');
+        const html = document.querySelector('html');
+
+        checkbox.addEventListener('click', function() {
+            checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+        });
+    </script>
+</body>
+</html>
